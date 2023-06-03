@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FONT AWESOME ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+   
+    <title>Pratik's Portfolio</title>
+  </head>
+  <body>
+    <!--==================== STYLE SWITCHER ====================-->
+
+    <input type="radio" name="color" id="color-1">
+    <input type="radio" name="color" id="color-2">
+    <input type="radio" name="color" id="color-3">
+    <input type="radio" name="color" id="color-4">
+    <input type="radio" name="color" id="color-5">
+    <input type="radio" name="color" id="color-6">
+    <input type="radio" name="color" id="color-7">
+    <input type="radio" name="color" id="color-8">
+    <input type="radio" name="color" id="color-9">
+    <input type="radio" name="color" id="color-10">
+    <input type="checkbox" id="toggler">
+    <input type="checkbox" id="day-night">
+
+    <div class="style__switcher">
+      <label for="toggler" class="style__switcher-toggler">
+        <i class="fa-solid fa-gear fa-spin"></i>
+      </label>
+
+      <label for="day-night" class="style__switcher-theme">
+        <i class="fa-solid fa-sun"></i>
+        <i class="fa-solid fa-moon"></i>
+      </label>
+
+      <h3 class="style__switcher-title">Theme Colors</h3>
+      <div class="style__switcher-colors">
+        <label for="color-1" class="color-1 color"></label>
+        <label for="color-2" class="color-2 color"></label>
+        <label for="color-3" class="color-3 color"></label>
+        <label for="color-4" class="color-4 color"></label>
+        <label for="color-5" class="color-5 color"></label>
+        <label for="color-6" class="color-6 color"></label>
+        <label for="color-7" class="color-7 color"></label>
+        <label for="color-8" class="color-8 color"></label>
+        <label for="color-9" class="color-9 color"></label>
+        <label for="color-10" class="color-10 color"></label>
+      </div>
+    </div>
+
+    <!--==================== HEADER ====================-->
+    <header class="header">
+      <nav class=" nav container wide__container">
+        <a href="index.html" class="nav__logo">PratikSaklecha</a>
+
+        <input type="checkbox" id="nav-toggler"/>
+
+        <label for="nav-toggler" class="nav__toggle">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+
+        <ul class="nav__list">
+          
+          <li class="nav__items">
+            <a href="#home" class="nav__link active">Home</a>
+          </li>
+
+          <li class="nav__items">
+            <a href="#about" class="nav__link ">About</a>
+          </li>
+
+          <li class="nav__items">
+            <a href="#qualification" class="nav__link ">Experience</a>
+          </li>
+
+          <li class="nav__items">
+            <a href="#services" class="nav__link">Services</a>
+          </li>
+
+          <li class="nav__items">
+            <a href="#works" class="nav__link">Portfolio</a>
+          </li>
+
+          <li class="nav__items">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+
+        </ul>
+        
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home" id="home">
+        <div class="home__container container grid wide__container ">
+          <div class="home__content">
+
+            <span class="home__small">Hello</span>
+            <h1 class="home__title"> <span>I'm</span>PratikSaklecha<br>a&#32<span>UI/UX Designer</span></h1>
+
+            <p class="home__description">Results-oriented UI/UX Designer proficient in creating visually appealing and user-centric interfaces. Committed to optimizing user experiences through intuitive design and a deep understanding of user behaviors and needs.</p>
+
+            <div class="home__btns">
+              <a href="#contact" class="btn">Hire me</a>
+              <a href="#works" class="btn btn--transparent">Portfolio</a>
+
+            </div>
+          </div>
+
+          <div class="home__img-wrapper">
+            <img src="assets/img/Pratik_profile.png" alt="" class="home__img"> 
+          </div>
+ 
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about" id="about">
+        <div class="about__container grid container wide__container">
+          <div class="about__img-wrapper">
+            <img src="assets/img/about_pratik.png" alt="" class="about__img">
+            <img src="assets/img/about_pratik.png" alt="" class="about__img">
+            <img src="assets/img/about_pratik.png" alt="" class="about__img">
+            <img src="assets/img/about_pratik.png" alt="" class="about__img">
+          </div>
+
+            <div class="about__content">
+              <h2 class="section__title" data-title="Who am I?">
+                I'm PratikSaklecha, A visual UI/UX designer and Web developer 
+              </h2>
+              <p class="about__description">Strategic UX/UI Designer and Frontend Web Developer, leveraging user research insights and iterative design methodologies to create data-driven interfaces that drive user engagement and business growth.</p>
+
+              <ul class="about__data grid">
+
+                <li class="data__item">
+                  <h3 class="data__title">NAME:</h3>
+                  <span class="data__description">Pratik Saklecha</span>
+                </li>
+                <li class="data__item">
+                  <h3 class="data__title">Age:</h3>
+                  <span class="data__description">20 Years</span>
+                </li>
+                <li class="data__item">
+                  <h3 class="data__title">From:</h3>
+                <span class="data__description">Mandsaur,India</span>
+                </li>
+                <li class="data__item">
+                  <h3 class="data__title">Email:</h3>
+                  <span class="data__description about__link">pratik@mail.com</span>
+                </li>
+              </ul>
+              <div class="about__bottom">
+                <a href="assets/pdf/CV.pdf" download="" class="btn">Download CV</a>
+              <div class="about__social-links">
+                <a href="" class="about__social-link"><i class="fa-brands fa-twitter"></i></a>             
+                <a href="" class="about__social-link"><i class="fa-brands fa-instagram"></i></a>
+                <a href="" class="about__social-link"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="" class="about__social-link"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+            </div>
+
+
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qualification section" id="qualification">
+        <h2 class="section__title title-center" data-title="My Journey">Qualification</h2>
+
+        <div class="resume__container container grid">
+          <div class="resume__group">
+            <h3 class="resume__heading">Education</h3>
+
+            <div class="resume_items">
+
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">CoderHouse Courses</h3>
+                  <span class="resume__icon">+</span>
+                </div>
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume_title">Backend Programing</h3>
+                    <span class="resume__date">2020-2025</span>
+                  </div>
+                  <p class="resume__description">Lorem ipsum dolor sit amet. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, iure modi! Laudantium sequi vitae amet repellat omnis fugit officiis nihil!</p>
+                </div>
+
+              </div>
+
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">UIT-RGPV Bhopal</h3>
+                  <span class="resume__icon">+</span>
+                </div>
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume_title">Automobile Enginerring</h3>
+                    <span class="resume__date">2019-2023</span>
+                  </div>
+                  <p class="resume__description">Lorem ipsum dolor sit amet. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, iure modi! Laudantium sequi vitae amet repellat omnis fugit officiis nihil!</p>
+                </div>
+
+              </div>
+
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">UIT-RGPV Bhopal</h3>
+                  <span class="resume__icon">+</span>
+                </div>
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume_title">Automobile Enginerring</h3>
+                    <span class="resume__date">2019-2023</span>
+                    
+                  </div>
+                  <p class="resume__description">Lorem ipsum dolor sit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, iure modi! Laudantium sequi vitae amet repellat omnis fugit officiis nihil!</p>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="resume__group">
+            <h3 class="resume__heading">Experience</h3>
+
+            <div class="resume_items">
+
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">CoderHouse Courses</h3>
+                  <span class="resume__icon">+</span>
+                </div>
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume_title">Backend Programing</h3>
+                    <span class="resume__date">2020-2025</span>
+                  </div>
+                  <p class="resume__description">Lorem, ipsum dolor. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, iure modi! Laudantium sequi vitae amet repellat omnis fugit officiis nihil!</p>
+                </div>
+
+              </div>
+
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">UIT-RGPV Bhopal</h3>
+                  <span class="resume__icon">+</span>
+                </div>
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume_title">Automobile Enginerring</h3>
+                    <span class="resume__date">2019-2023</span>
+                  </div>
+                  <p class="resume__description">Lorem ipsum dolor sit amet. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, iure modi! Laudantium sequi vitae amet repellat omnis fugit officiis nihil!</p>
+                </div>
+
+              </div>
+
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">UIT-RGPV Bhopal</h3>
+                  <span class="resume__icon">+</span>
+                </div>
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume_title">Automobile Enginerring</h3>
+                    <span class="resume__date">2019-2023</span>
+                  </div>
+                  <p class="resume__description">Lorem ipsum dolor sit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, iure modi! Laudantium sequi vitae amet repellat omnis fugit officiis nihil!</p>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!--==================== SERVICES ====================-->
+      <section class="services section" id="services">
+        <h2 class="section__title title-center" data-title="Services">What can I do for You?</h2>
+        <div class="services__container container grid">
+
+          <div class="services__item">
+            <i class="fa-solid fa-pen-to-square services__icon"></i>
+            <h3 class="services__title">UI/UX Design</h3>
+            <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor corrupti minima, quidem autem quod cumque! Ipsum numquam fugiat dolores quos architecto modi iusto voluptas repellendus?</p>
+            
+            <span class="services__no">01</span>
+          </div>
+
+          <div class="services__item">
+            <i class="fa-solid fa-laptop services__icon"></i>
+            <h3 class="services__title">Web Development</h3>
+            <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor corrupti minima, quidem autem quod cumque! Ipsum numquam fugiat dolores quos architecto modi iusto voluptas repellendus?</p>
+            
+            <span class="services__no">02</span>
+          </div>
+
+          <div class="services__item">
+            <i class="fa-solid fa-chart-area services__icon"></i>
+            <h3 class="services__title">Research & Analytics</h3>
+            <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor corrupti minima, quidem autem quod cumque! Ipsum numquam fugiat dolores quos architecto modi iusto voluptas repellendus?</p>
+            
+            <span class="services__no">03</span>
+          </div>
+
+          <div class="services__item">
+            <i class="fa-solid fa-pen-to-square services__icon"></i>
+            <h3 class="services__title">UI/UX Design</h3>
+            <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor corrupti minima, quidem autem quod cumque! Ipsum numquam fugiat dolores quos architecto modi iusto voluptas repellendus?</p>
+            
+            <span class="services__no">04</span>
+          </div>
+
+          <div class="services__item">
+            <i class="fa-solid fa-laptop services__icon"></i>
+            <h3 class="services__title">Web Development</h3>
+            <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor corrupti minima, quidem autem quod cumque! Ipsum numquam fugiat dolores quos architecto modi iusto voluptas repellendus?</p>
+            
+            <span class="services__no">05</span>
+          </div>
+
+          <div class="services__item">
+            <i class="fa-solid fa-chart-area services__icon"></i>
+            <h3 class="services__title">Research & Analytics</h3>
+            <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor corrupti minima, quidem autem quod cumque! Ipsum numquam fugiat dolores quos architecto modi iusto voluptas repellendus?</p>
+            
+            <span class="services__no">06</span>
+          </div>
+
+
+
+        </div>
+      </section>
+
+      <!--==================== SKILLS ====================-->
+      <section class="skills section">
+        <h2 class="section__title title-center" data-title="My Talent">Professional Skills</h2>
+
+        <div class="skills__container container grid">
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">php</h3>
+              <span class="skills__no">85%</span>
+            </div>
+            <p class="skills__description">Proficient in PHP programming, experienced in developing dynamic and feature-rich web applications, leveraging frameworks and databases for seamless functionality.</p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 85%;" >
+                <span></span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">JavaScript</h3>
+              <span class="skills__no">80%</span>
+            </div>
+            <p class="skills__description"> Highly skilled in JavaScript programming, adept at developing interactive and dynamic web applications, utilizing frameworks and libraries to create seamless user experiences</p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 80%;">
+                <span></span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">Wordpress</h3>
+              <span class="skills__no">90%</span>
+            </div>
+            <p class="skills__description"> Experienced in designing and building dynamic websites with WordPress, utilizing themes, plugins, and optimizing performance for seamless user experiences.</p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 90%;">
+                <span></span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">Python</h3>
+              <span class="skills__no">75%</span>
+            </div>
+            <p class="skills__description">roficient in Python programming, adept at developing robust and efficient solutions, implementing algorithms, and leveraging libraries for diverse applications.</p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width:75%;">
+                <span></span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">React</h3>
+              <span class="skills__no">75%</span>
+            </div>
+            <p class="skills__description">Experienced in developing interactive and scalable web applications using React, proficient in creating reusable components Which enhanced user interfaces.</p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 75%;">
+                <span></span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">Adobe XD</h3>
+              <span class="skills__no">95%</span>
+            </div>
+            <p class="skills__description">Skilled in creating captivating user interfaces and interactive prototypes using Adobe XD, proficient in wireframing, prototyping, and collaborating on projects.</p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 95%;">
+                <span></span>
+              </div>
+            </div>
+
+          </div>
+          
+        </div>
+          
+      </section>
+
+      <!--==================== PORTFOLIO ====================-->
+      <section class="works section" id="works">
+        <h2 class="section__title title-center" data-title="My Poertfolio">Recent Work</h2>
+
+        <div class="work__container container grid">
+
+          <div class="work__card">      
+            <img src="assets/img/Work-1.jpg" alt="image not found" class="work__img">
+            <div class="work__details">
+              <h3 class="work__title">Web Design</h3>
+              <span class="work__description">Lorem ipsum dolor sit amet</span>
+            </div>           
+          </div>
+
+          <div class="work__card">      
+            <img src="assets/img/Work-2.jpg" alt="image not found" class="work__img">
+            <div class="work__details">
+              <h3 class="work__title">Web Design</h3>
+              <span class="work__description">Lorem ipsum dolor sit amet</span>
+            </div>           
+          </div>
+
+          <div class="work__card">      
+            <img src="assets/img/Work-3.jpg" alt="image not found" class="work__img">
+            <div class="work__details">
+              <h3 class="work__title">Web Design</h3>
+              <span class="work__description">Lorem ipsum dolor sit amet</span>
+            </div>           
+          </div>
+
+          <div class="work__card">      
+            <img src="assets/img/Work-4.jpg" alt="image not found" class="work__img">
+            <div class="work__details">
+              <h3 class="work__title">Web Design</h3>
+              <span class="work__description">Lorem ipsum dolor sit amet</span>
+            </div>           
+          </div>
+
+          <div class="work__card">      
+            <img src="assets/img/Work-5.jpg" alt="image not found" class="work__img">
+            <div class="work__details">
+              <h3 class="work__title">Web Design</h3>
+              <span class="work__description">Lorem ipsum dolor sit amet</span>
+            </div>           
+          </div>
+
+          <div class="work__card">      
+            <img src="assets/img/Work-6.jpg" alt="image not found" class="work__img">
+            <div class="work__details">
+              <h3 class="work__title">Web Design</h3>
+              <span class="work__description">Lorem ipsum dolor sit amet</span>
+            </div>           
+          </div>
+        </div>
+
+      </section>
+
+      <!--==================== TESTIMONIALS ====================-->
+      <section class="testimonials section" section>
+        <h2 class="section__title title-center" data-title="TESTIMONIALS">What My Clients Say</h2>
+
+        <div class="testimonials__container container grid">
+
+          <div class="testimonials__item">
+            <p class="testimonials__description">Pratik's expertise in UI/UX design was instrumental in transforming our project. His attention to detail, creative approach, and dedication to user-centric design resulted in a visually stunning and intuitive interface. Highly recommended for his exceptional skills and professionalism</p>
+
+            <div class="testimonials__data">
+              <img src="assets/img/client-1.jpg" alt="" class="testimonials__img">
+              <div>
+                <h3 class="testimonials__name">Maria Goem</h3>
+                <span class="testimonials__identity">Manchester, UK</span>
+              </div>
+            </div>
+            
+          </div>
+
+          <div class="testimonials__item">
+            <p class="testimonials__description">Pratik's exceptional web development skills have truly impressed me. His ability to seamlessly blend creativity and technical expertise resulted in an outstanding website. His professionalism, attention to detail, and dedication to delivering quality work make him a standout web developer.</p>
+
+            <div class="testimonials__data">
+              <img src="assets/img/client-2.jpg" alt="" class="testimonials__img">
+              <div>
+                <h3 class="testimonials__name">Katie Frostad</h3>
+                <span class="testimonials__identity">Paris, France</span>
+              </div>
+            </div>
+            
+          </div>
+
+        </div>
+      </section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title title-center" data-title="Get in touch">Contact me</h2>  
+        <div class="contact__container container grid">
+
+          <div class="contact__details">
+
+            <div class="contact_item">
+              <i class="fa-solid fa-phone contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Call Us</h3>
+                <span class="contact__data">+91-1234567890</span>
+              </div>
+            </div>
+
+            <div class="contact_item">
+              <i class="fa-solid fa-envelope contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Email Us</h3>
+                <span class="contact__data">pratik@mail.com</span>
+              </div>
+            </div>
+
+            <div class="contact_item">
+              <i class="fa-solid fa-location-dot contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Address</h3>
+                <span class="contact__data">458, ipsum dolor sit amet , jks jajsj, India - 00001</span>
+              </div>
+            </div>
+            
+          </div>
+
+          <form action="" class="contact__form">
+            <div class="form__group">
+
+              <div class="form__input">
+                <input type="text" placeholder="Name" class="input__control">
+              </div>
+
+              <div class="form__input">
+                <input type="email" placeholder="Email" class="input__control">
+              </div>
+            </div>
+
+            <div class="form__input">
+              <input type="text" placeholder="Subject" class="input__control">
+            </div>
+
+            <div class="form__input">
+              <textarea name="" id="" placeholder="Message" cols="30" rows="10" class="input__control textarea"></textarea>
+            </div>
+
+            <button class="btn contact__btn">Send Message</button>
+          </form>
+
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container">
+        <p class="footer__copyright">&copy; 2023 Pratik. All Rights Reserved</p>
+
+        <div class="footer__social-links">
+
+          <a href="" class="footer__social-link"><i class="fa-brands fa-twitter"></i></a>             
+          <a href="" class="footer__social-link"><i class="fa-brands fa-instagram"></i></a>
+          <a href="" class="footer__social-link"><i class="fa-brands fa-square-facebook"></i></a>
+          <a href="" class="footer__social-link"><i class="fa-brands fa-linkedin"></i></a>
+               
+        </div>
+        
+      </div>
+    </footer>
+  </body>
+  <script>
+    const navbarItems = document.querySelectorAll('.nav__link')
+
+    navbarItems.forEach(item => {
+      item.addEventListener('click', function() {
+        navbarItems.forEach(item => {
+          item.classList.remove('clicked');
+        });
+
+        this.classList.add('clicked');
+      });
+    });
+  </script>
+</html>
