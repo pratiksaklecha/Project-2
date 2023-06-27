@@ -1,6 +1,10 @@
 /*=============== GOOGLE FONTS ===============*/
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height:3.5rem ;
